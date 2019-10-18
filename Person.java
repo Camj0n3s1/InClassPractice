@@ -18,8 +18,8 @@ public class Person extends NameHolder {
 
 	@Override
 	public String describeSelf() {
-		String description = "*** First Name: " + super.getFirstName() + " Last Name: " + lastName + "***";
-		return description;
+		String descriptionSelf = "*** First Name: " + super.getFirstName() + " Last Name: " + lastName + "***";
+		return descriptionSelf;
 
 	}
 	
